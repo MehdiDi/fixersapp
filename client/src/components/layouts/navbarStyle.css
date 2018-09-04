@@ -1,0 +1,51 @@
+.menu{
+    background:  white !important;
+    margin: 0 !important;
+}
+
+.circle{
+    border-radius: 50px !important;
+    border: none !important;
+    padding: 8px 8px !important;
+    
+}
+.circle i{
+    margin: 0 auto !important;
+}
+.ui.list{
+    height: 200px !important;
+    overflow-y: scroll;
+    padding: 15px !important;
+}
+
+.ui.menu .right.menu .link.item:hover,
+.ui.menu .right.menu a.item:hover,
+.ui.link.menu .right.menu .item:hover {
+    background: #fafafa !important;
+}
+.ui.menu .link.item:hover,
+.ui.menu a.item:hover,
+.ui.link.menu .item:hover{
+    background: none !important;
+}
+.ui.menu .item{
+    font-size: 13px !important;
+    color:lightgr
+}
+.ui.menu .item.active{
+    background: white !important;
+    color: #1678C2 !important;
+}
+.brand {
+    font-weight: bold !important;
+    margin: 0 auto !important;
+}
+
+@media screen and (max-width: 768px) {
+    .ui.menu .left.menu{
+        display: none !important;
+    }
+    .brand{
+        margin:0 !important;
+    }
+}

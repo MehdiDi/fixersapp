@@ -1,0 +1,22 @@
+body{
+    background: white;
+}
+
+
+
+#loading{
+    position: fixed;
+    top:50px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.75;
+}
+.rounded-card{
+    border-radius: 5px;
+    padding: 10px;
+    background: #ffffff;
+    border: 1.4px solid rgba(0,0,0,0.05) !important;
+}
+
