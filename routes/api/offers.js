@@ -48,7 +48,7 @@ router.get('/:id', (req, res) => {
             $project: {
                 "prix": 1,
                 "message": 1,
-                'annonce': '1',
+                'annonce': 1,
                 'date': 1,
                 'user._id': 1,
                 'user.nom': 1,
